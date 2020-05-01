@@ -1,0 +1,35 @@
+* {
+  /* margin: 0px; */
+  /* padding: 0px; */
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 800px;
+}
+
+/* table style*/
+
+table {
+  border-collapse: collapse;
+  width: 400px;
+}
+
+caption {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+}
+
+th {
+  background-color: darkgray;
+  color: #000;
+  text-align: left;
+  font-weight: bold;
+}
+
+table td:first-child {
+  width: 30px;
+}
+
+.conteiner {
+  width: 100%;
+}
