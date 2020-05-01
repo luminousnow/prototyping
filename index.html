@@ -3,52 +3,117 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>my page of prototyping html</title>
   </head>
   <body>
-    <h1>It`s my personal site for my prototyping html pages</h1>
-    <p>You can see some pages</p>
-    <table>
-      <caption>
-        Samples table
-      </caption>
-      <thead>
-        <tr>
-          <th>title</th>
-          <th>source</th>
-        </tr>
-        <tr>
-          <td>
-            <a href="./smpl/sample-1.html" target="_blank">
-              Sample page 1
-            </a>
-          </td>
-          <td>
-            <a
-              href="https://www.figma.com/file/rWzutuk48dEymobNaqMDY2/Wireframing-in-Figma?node-id=0%3A817"
-              target="_blank"
-            >
-              link
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <a href="./smpl/sample-2.html" target="_blank">
-              Sample page 2
-            </a>
-          </td>
-          <td>
-            <a
-              href="https://all-psd.ru/site-templates/5221-SHablon_sayta_s_yarkoy_shapkoy.html"
-              target="_blank"
-            >
-              link
-            </a>
-          </td>
-        </tr>
-      </thead>
-      <tbody></tbody>
-    </table>
+    <header>
+      <a href="./index.html"><h1>Denys Kravchuk</h1></a>
+      <ul>
+        <li><a href="#01">My Sample</a></li>
+        <li><a href="">About me</a></li>
+        <li><a href="">Contacts</a></li>
+      </ul>
+    </header>
+
+    <main>
+      <!-- samples -->
+      <section class="conteiner">
+        <h2>It`s my personal site for my prototyping html pages</h2>
+        <p>You can see some pages</p>
+        <table id="01" class="table">
+          <caption>
+            Samples table
+          </caption>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>title</th>
+              <th>source</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>
+                <a href="./smpl/sample-1.html" target="_blank">
+                  Sample page 1
+                </a>
+              </td>
+              <td>
+                <a
+                  href="https://www.figma.com/file/rWzutuk48dEymobNaqMDY2/Wireframing-in-Figma?node-id=0%3A817"
+                  target="_blank"
+                >
+                  link
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>
+                <a href="./smpl/sample-2.html" target="_blank">
+                  Sample page 2
+                </a>
+              </td>
+              <td>
+                <a
+                  href="https://all-psd.ru/site-templates/5221-SHablon_sayta_s_yarkoy_shapkoy.html"
+                  target="_blank"
+                >
+                  link
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- about me -->
+      <section class="conteiner">
+        <h2>Abou me</h2>
+      </section>
+
+      <!-- contacts -->
+      <section class="conteiner">
+        <h2>Contacts</h2>
+      </section>
+    </main>
+
+    <footer>
+      <address>
+        Ukrain, Ternopil
+      </address>
+      <ul>
+        <li>
+          <a
+            href="https://www.facebook.com/denis.kravchuk.ua"
+            aria-label="link to Facebook"
+            target="_blank"
+          >
+            Facebook
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/denis-kravchuk/"
+            aria-label="link to LinkedIn"
+            target="_blank"
+          >
+            LinkedIn
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/luminousnow"
+            aria-label="link to GitHub"
+            target="_blank"
+          >
+            GitHub
+          </a>
+        </li>
+      </ul>
+      <p class="conteiner">2020</p>
+    </footer>
   </body>
 </html>
